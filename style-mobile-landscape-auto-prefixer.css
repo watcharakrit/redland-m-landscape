@@ -1,0 +1,204 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (orientation:landscape) and (max-device-width: 991px) {
+
+  /* Fancy Box */
+  .fancybox-image-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .fancybox-image {
+    top: initial;
+  }
+
+  /* ---------------------------------------------------------------- */
+
+
+
+  /* Header Navbar */
+  .navbar {
+    padding-top: 30px;
+  }
+
+  .navbar>.container:nth-child(1) {
+    display: none !important;
+  }
+
+  .navbar>.container:nth-child(2) {
+    display: block !important;
+  }
+
+  .navbar>.container:nth-child(2) .side-nav-btn {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .navbar>.container:nth-child(2) .shop-details {
+    margin-right: 0 !important;
+  }
+
+  .navbar>.container:nth-child(2) .logo {
+    position: relative;
+    top: -39px;
+  }
+
+  /* ---------------------------------------------------------------- */
+
+
+
+  /* Header Sidemenu */
+  .side-menu .hidden-banner-sm,
+  .side-menu>.navbar-standard_MENU:nth-child(1) {
+    display: none !important;
+  }
+
+  .side-menu>.navbar-standard_MENU:nth-child(2) {
+    padding-top: 23px;
+  }
+
+  .side-menu>.navbar-standard_MENU:nth-child(2),
+  .side-menu>.navbar-standard_MENU:nth-child(2) .hidden-banner-md {
+    display: block !important;
+  }
+
+  .side-menu>.navbar-standard_MENU:nth-child(2) .hidden-banner-sm {
+    display: none !important;
+  }
+
+  .side-menu .btn-close_M {
+    margin-right: 20px;
+    height: 33px;
+    width: 33px;
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+  }
+
+  .side-menu .btn-close_M::before,
+  .side-menu .btn-close_M::after {
+    position: absolute;
+    content: ' ';
+    height: 24px;
+    width: 2px;
+    background: #dfddd6;
+    top: 5px;
+  }
+
+  .side-menu .btn-close_M::before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .side-menu .btn-close_M::after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .side-menu i.la-search {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    color: #fff !important;
+  }
+
+  .shop-details_MENU {
+    margin: auto;
+    float: right;
+    position: relative;
+    top: 8px;
+    right: 26px;
+  }
+
+  .side-menu>.navbar-standard_MENU:nth-child(2) .logo {
+    position: relative;
+    top: -40px;
+  }
+
+  .side-menu .side-nav {
+    margin-top: -10px !important;
+  }
+
+  .side-nav .navbar-nav .nav-item {
+    margin-left: 62% !important;
+  }
+
+  .side-nav .nav-item .nav-link {
+    font-size: 24px;
+    padding: 5px !important;
+  }
+
+  .side-menu .footer-social p {
+    font-size: 12px;
+  }
+
+  .side-menu .socail-top i {
+    font-size: 20px;
+  }
+
+  .side-menu .footer-social {
+    bottom: 10px !important;
+    left: -22px;
+  }
+
+  /* ---------------------------------------------------------------- */
+
+
+
+  /* Home Page */
+  .bg-skills {
+    padding-bottom: 50px;
+  }
+
+  .text-home {
+    height: auto !important;
+    text-align: center;
+  }
+
+  .text-home .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .text-home .hidden-banner-sm {
+    display: none;
+  }
+
+  .navigate-arrowBanner {
+    bottom: 0px !important;
+  }
+
+  .slider-bottom-copyM {
+    bottom: 10px !important;
+  }
+
+  .slider-copyrightM {
+    font-size: 12px;
+  }
+
+  /* ---------------------------------------------------------------- */
+
+
+  /* Projects Detail */
+  .popup-box {
+    height: 100% !important;
+  }
+
+  /* ---------------------------------------------------------------- */
+}

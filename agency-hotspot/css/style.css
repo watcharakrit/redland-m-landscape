@@ -1,0 +1,187 @@
+/* ===================================
+    About
+====================================== */
+
+/*
+    Theme Name: MegaOne
+    Theme URI:
+    Author: Themes Industry
+    Author URI:
+    Description: One Page Parallax Template
+    Tags: one page, multipurpose, parallax, creative, html5
+ */
+
+/* ===================================
+    Table of Content
+====================================== */
+
+/*  - Fonts
+    - General
+    - Header
+    - Side Menu
+    - Page Piling
+    - Banner
+    - About
+    - Team
+    - Portfolio
+    - Blog
+    - Contact
+    - Loader
+    - Media Queries   */
+
+/* ===================================
+    Google font
+====================================== */
+
+/* ===================================
+   Our Team
+====================================== */
+
+.team{
+    background-image: url("../images/team-bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.team h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.parallax-box{
+    text-align: center;
+}
+
+.parallax-box h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.parallax-box h5{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#team-slider{
+    text-align: center;
+}
+
+.team-box{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    position: relative;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.team-box .team-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-box .team-text{
+    text-align: center;
+    font-size: 14px;
+    padding: 1.3rem 0 0 0;
+}
+
+.team-box .team-text span, .team-box .team-text .team-social  {
+    opacity: 0;
+    transition: .25ms;
+}
+
+.team-box .team-text h5{
+    font-size: 22px;
+    color: #232728;
+    font-weight: normal;
+}
+
+.team-box .team-text span {
+    color: #212331;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#team-slider .owl-item.center .item{
+    height: auto;
+    transform: scale(1.0);
+}
+
+#team-slider .owl-item.center .team-box .team-text h5 {
+    font-size: 24px;
+}
+
+#team-slider .owl-item.center .item .team-text span, #team-slider .owl-item.center .item .team-text .team-social  {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+/* ===================================
+   Media Queries
+====================================== */
+
+@media (min-width: 1800px) {
+
+    /* Team */
+    .team .section-heading {
+        margin-bottom: 5rem !important;
+    }
+    .team-box {
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    /* Team */
+    .team h2 {
+        font-size: 42px;
+    }
+    .team-social a {
+        height: 36px;
+        width: 36px;
+    }
+    .team-box {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+    /* Team */
+    .team h2 {
+        font-size: 36px;
+    }
+    .team-box {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .team-box {
+        height: auto;
+    }
+
+    /* Team */
+    .team h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* Team */
+    .team h2 {
+        font-size: 22px;
+    }
+}
