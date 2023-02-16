@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@media screen and (orientation:landscape) and (max-device-width: 991px) {
+@media screen and (orientation:landscape) and (max-device-width: 991px) and (max-device-height: 420px) {
 
   /* Fancy Box */
   .fancybox-image-wrap {
@@ -212,7 +212,7 @@
   /* ---------------------------------------------------------------- */
 }
 
-@media screen and (orientation:landscape) and (max-device-width: 767px) {
+@media screen and (orientation:landscape) and (max-device-width: 767px) and (max-device-height: 420px) {
   .container {
     max-width: initial !important;
   }
