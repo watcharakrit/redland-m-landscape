@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@media screen and (orientation:landscape) and (max-device-width: 991px) and (max-device-height: 420px) {
+@media screen and (orientation:landscape) and (max-width: 991px) and (max-height: 420px) {
 
   /* Fancy Box */
   .fancybox-image-wrap {
@@ -210,9 +210,13 @@
   }
 
   /* ---------------------------------------------------------------- */
+
+  .section.bg-cream {
+    height: auto;
+  }
 }
 
-@media screen and (orientation:landscape) and (max-device-width: 767px) and (max-device-height: 420px) {
+@media screen and (orientation:landscape) and (max-width: 767px) and (max-height: 420px) {
   .container {
     max-width: initial !important;
   }
@@ -241,5 +245,9 @@
 
   .popup-box {
     height: calc(100% - 50px) !important;
+  }
+
+  .auto-contact {
+    margin-top: 18% !important;
   }
 }
