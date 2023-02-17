@@ -212,7 +212,7 @@
   /* ---------------------------------------------------------------- */
 
   .section.bg-cream {
-    height: auto;
+    height: auto !important;
   }
 
   .awards-top {
