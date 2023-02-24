@@ -22,22 +22,31 @@
   .navbar {
     padding-top: 30px;
   }
-  .navbar > .container:nth-child(1) {
+  .navbar > .container:not(.navbarMobile) {
     display: none !important;
   }
-  .navbar > .container:nth-child(2) {
+  .navbar > .container.navbarMobile {
     display: block !important;
   }
-  .navbar > .container:nth-child(2) .side-nav-btn {
+  .navbar > .container.navbarMobile .side-nav-btn {
     float: right;
     margin-right: 20px;
   }
-  .navbar > .container:nth-child(2) .shop-details {
+  .navbar > .container.navbarMobile .shop-details {
     margin-right: 0 !important;
   }
-  .navbar > .container:nth-child(2) .logo {
+  .navbar > .container.navbarMobile .logo {
     position: relative;
     top: -39px;
+  }
+  .navbar.navbar-top-default .navbarMobile-brown {
+    display: none !important;
+  }
+  .navbar.navbar-top-default.-theme-brown .navbarMobile-white {
+    display: none !important;
+  }
+  .navbar.navbar-top-default.-theme-brown .navbarMobile-brown {
+    display: block !important;
   }
   /* ---------------------------------------------------------------- */
   /* Header Sidemenu */
@@ -174,6 +183,9 @@
   }
 }
 @media screen and (orientation: landscape) and (max-width: 767px) and (max-height: 420px) {
+  .section.bg-cream {
+    height: 100% !important;
+  }
   .container {
     max-width: initial !important;
   }

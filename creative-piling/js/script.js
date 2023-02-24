@@ -40,6 +40,14 @@ $(window).on("load", function () {
                 $('.slider-social a').fadeOut();
                 $('#pp-nav.right').fadeOut();
 
+                if (nextIndex == 7) {
+                    $('.navbar-top-default').removeClass('-theme-brown');
+                }
+
+                if (nextIndex == 8) {
+                    $('.navbar-top-default').addClass('-theme-brown');
+                }
+
                 
                 if(nextIndex == 1 || nextIndex == 2 || nextIndex == 3 || nextIndex == 4 || nextIndex == 5 || nextIndex == 6 || nextIndex == 7 || nextIndex == 8 || nextIndex == 9 || nextIndex == 10){
                     setTimeout(function(){
@@ -142,8 +150,8 @@ jQuery(function ($) {
         });
     }
 
-    if ($("#sidemenu_toggle_M").length) {
-        $("#sidemenu_toggle_M").on("click", function () {
+    if ($("#sidemenu_toggle_M, .sidemenu_toggle_M").length) {
+        $("#sidemenu_toggle_M, .sidemenu_toggle_M").on("click", function () {
             $(".side-nav-btn").addClass("active");
             $(".side-menu").addClass("side-menu-active"), $("#close_side_menu").fadeIn(700)
         }), $(".side-nav .navbar-nav .nav-link").on("click", function () {
@@ -884,7 +892,7 @@ function Showcase() {
         event.stopPropagation();
         $('.search_block').toggleClass('visible');
         $('.search-overlay').addClass('overlayer');
-        $('#sidemenu_toggle_M').fadeOut(2);
+        $('#sidemenu_toggle_M, .sidemenu_toggle_M').fadeOut(2);
         setTimeout(() => {
             $('.search_block .search_input').focus();
         }, 1050)
@@ -900,7 +908,7 @@ function Showcase() {
     $('body').on('click', function(){
         $('.search_block').removeClass('visible');
         $('.search-overlay').removeClass('overlayer');
-        $('#sidemenu_toggle_M').fadeIn(2);
+        $('#sidemenu_toggle_M, .sidemenu_toggle_M').fadeIn(2);
     });
 
     $('.search_box').on('click', function(event){
@@ -927,7 +935,7 @@ function Showcase() {
         if(e.keyCode===27){
             $('.search_block').removeClass('visible');
             $('.search-overlay').removeClass('overlayer');
-            $('#sidemenu_toggle_M').fadeIn(2);
+            $('#sidemenu_toggle_M, .sidemenu_toggle_M').fadeIn(2);
         }
     });
 

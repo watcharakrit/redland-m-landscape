@@ -29,11 +29,11 @@
   .navbar {
     padding-top: 30px;
 
-    & > .container:nth-child(1) {
+    & > .container:not(.navbarMobile) {
       display: none !important;
     }
 
-    & > .container:nth-child(2) {
+    & > .container.navbarMobile {
       display: block !important;
 
       .side-nav-btn {
@@ -48,6 +48,21 @@
       .logo {
         position: relative;
         top: -39px;
+      }
+    }
+
+    // Home Menu White and Brown Switch
+    &.navbar-top-default .navbarMobile-brown {
+      display: none !important;
+    }
+
+    &.navbar-top-default.-theme-brown {
+      .navbarMobile-white {
+        display: none !important;
+      }
+
+      .navbarMobile-brown {
+        display: block !important;
       }
     }
   }
@@ -221,6 +236,10 @@
 }
 
 @media screen and (orientation:landscape) and (max-width: 767px) and (max-height: 420px) {
+  .section.bg-cream {
+    height: 100% !important;
+  }
+
   .container {
     max-width: initial !important;
   }
