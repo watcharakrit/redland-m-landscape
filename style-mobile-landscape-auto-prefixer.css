@@ -72,7 +72,7 @@
     display: none !important;
   }
   .navbar.navbar-top-default.-theme-brown .navbarMobile-brown {
-    display: block !important;
+    display: flex !important;
   }
   /* ---------------------------------------------------------------- */
   /* Header Sidemenu */
