@@ -277,6 +277,14 @@
   .contactbox {
     height: auto !important;
   }
+
+  .my-auto.auto-profileDM {
+    margin-top: 0 !important;
+  }
+
+  .back-people-detail {
+    bottom: 40px !important;
+  }
 }
 
 @media screen and (orientation:landscape) and (max-width: 767px) and (max-height: 420px) {
@@ -330,5 +338,9 @@
 
   .auto-projects {
     margin: 0 !important;
+  }
+
+  .scrollbarProfileDetails {
+    margin-bottom: 0 !important;
   }
 }
