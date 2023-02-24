@@ -15,7 +15,7 @@ $(window).on("load", function () {
 /* ===================================
     Page Piling
 ====================================== */
-    if($(window).width() < 1000) {
+    if (!($(window).width() >= 1000 || window.matchMedia("(orientation: landscape)").matches)) {
         $('.pagedata').removeAttr('id');
         $('html, body').css('overflow-y', 'scroll');
     }else{

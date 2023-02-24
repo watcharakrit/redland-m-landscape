@@ -126,10 +126,15 @@
   /* ---------------------------------------------------------------- */
   /* Home Page */
   .bg-skills {
+    height: 100%;
     padding-bottom: 50px;
+    display: flex !important;
     -webkit-box-align: end !important;
     -ms-flex-align: end !important;
     align-items: flex-end !important;
+  }
+  .bg-skills .pp-tableCell {
+    height: auto !important;
   }
   .text-home {
     height: auto !important;
