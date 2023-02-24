@@ -44,11 +44,11 @@
     display: none !important;
   }
   .navbar > .container.navbarMobile {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column;
   }
-  .navbar > .container.navbarMobile .row {
-    position: relative;
-    z-index: 2;
+  .navbar > .container.navbarMobile > .row:nth-child(1) {
+    align-self: flex-end;
   }
   .navbar > .container.navbarMobile > .row:nth-child(2) {
     margin-top: -39px;

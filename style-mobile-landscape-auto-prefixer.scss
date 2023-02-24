@@ -61,11 +61,11 @@
     }
 
     & > .container.navbarMobile {
-      display: block !important;
+      display: flex !important;
+      flex-direction: column;
 
-      .row {
-        position: relative;
-        z-index: 2;
+      >.row:nth-child(1) {
+        align-self: flex-end;
       }
 
       >.row:nth-child(2) {
