@@ -58,6 +58,10 @@
     & > .container.navbarMobile {
       display: block !important;
 
+      >.row:nth-child(2) {
+        margin-top: -39px;
+      }
+
       .side-nav-btn {
         float: right;
         margin-right: 20px;
@@ -65,11 +69,6 @@
 
       .shop-details {
         margin-right: 0 !important;
-      }
-
-      .logo {
-        position: relative;
-        top: -39px;
       }
     }
 
@@ -313,6 +312,10 @@
     height: calc(100% - 50px) !important;
   }
 
+  .my-auto {
+    margin-bottom: 0 !important;
+  }
+
   .auto-contact {
     margin-top: 0 !important;
   }
@@ -322,7 +325,7 @@
   }
 
   .profile-top {
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
 
   .auto-projects {

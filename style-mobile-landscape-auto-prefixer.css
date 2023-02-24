@@ -42,16 +42,15 @@
   .navbar > .container.navbarMobile {
     display: block !important;
   }
+  .navbar > .container.navbarMobile > .row:nth-child(2) {
+    margin-top: -39px;
+  }
   .navbar > .container.navbarMobile .side-nav-btn {
     float: right;
     margin-right: 20px;
   }
   .navbar > .container.navbarMobile .shop-details {
     margin-right: 0 !important;
-  }
-  .navbar > .container.navbarMobile .logo {
-    position: relative;
-    top: -39px;
   }
   .navbar.navbar-top-default .navbarMobile-brown {
     display: none !important;
@@ -239,6 +238,9 @@
   .popup-box {
     height: calc(100% - 50px) !important;
   }
+  .my-auto {
+    margin-bottom: 0 !important;
+  }
   .auto-contact {
     margin-top: 0 !important;
   }
@@ -246,7 +248,7 @@
     margin-top: 0 !important;
   }
   .profile-top {
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
   .auto-projects {
     margin: 0 !important;
