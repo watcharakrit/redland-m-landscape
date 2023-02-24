@@ -15,11 +15,14 @@ $(window).on("load", function () {
 /* ===================================
     Page Piling
 ====================================== */
-    if (!($(window).width() >= 1000 || window.matchMedia("(orientation: landscape)").matches)) {
+    const $pagePiling = $('#pagepiling');
+    const hasPagePiling = $pagePiling.length? true: false;
+    const isHomepage = $('html').hasClass('home-page');
+    if (!($(window).width() >= 1000 || (window.matchMedia("(orientation: landscape)").matches && isHomepage)) || !hasPagePiling) {
         $('.pagedata').removeAttr('id');
         $('html, body').css('overflow-y', 'scroll');
     }else{
-        $('#pagepiling').pagepiling({
+        $pagePiling.pagepiling({
             direction: 'vertical',
             sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#e0dcd6', '#736754'],
             anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
