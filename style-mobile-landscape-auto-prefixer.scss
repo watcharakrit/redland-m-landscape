@@ -20,6 +20,10 @@
       display: flex !important;
     }
   }
+
+  &.navbar-top-default .navbarMobile-brown {
+    display: none !important;
+  }
 }
 
 .back-top {
@@ -67,6 +71,10 @@
       >.row:nth-child(2) {
         margin-top: -39px;
         z-index: 1;
+      }
+
+      .link.logo {
+        position: relative;
       }
 
       .side-nav-btn {

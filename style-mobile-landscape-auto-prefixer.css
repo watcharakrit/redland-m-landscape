@@ -13,6 +13,9 @@
 .navbar.navbar-top-default.-theme-brown .navbarDesktop-brown {
   display: flex !important;
 }
+.navbar.navbar-top-default .navbarMobile-brown {
+  display: none !important;
+}
 
 .back-top {
   bottom: 0 !important;
@@ -50,6 +53,9 @@
   .navbar > .container.navbarMobile > .row:nth-child(2) {
     margin-top: -39px;
     z-index: 1;
+  }
+  .navbar > .container.navbarMobile .link.logo {
+    position: relative;
   }
   .navbar > .container.navbarMobile .side-nav-btn {
     float: right;
