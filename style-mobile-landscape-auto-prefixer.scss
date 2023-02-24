@@ -59,8 +59,14 @@
     & > .container.navbarMobile {
       display: block !important;
 
+      .row {
+        position: relative;
+        z-index: 2;
+      }
+
       >.row:nth-child(2) {
         margin-top: -39px;
+        z-index: 1;
       }
 
       .side-nav-btn {

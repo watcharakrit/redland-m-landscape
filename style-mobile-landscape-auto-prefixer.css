@@ -43,8 +43,13 @@
   .navbar > .container.navbarMobile {
     display: block !important;
   }
+  .navbar > .container.navbarMobile .row {
+    position: relative;
+    z-index: 2;
+  }
   .navbar > .container.navbarMobile > .row:nth-child(2) {
     margin-top: -39px;
+    z-index: 1;
   }
   .navbar > .container.navbarMobile .side-nav-btn {
     float: right;
