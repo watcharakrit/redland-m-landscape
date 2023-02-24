@@ -470,18 +470,22 @@ jQuery(function ($) {
     $('.open_search').on('click', function(event){
         event.stopPropagation();
         $('.search_block').toggleClass('visible');
-        $('.search_block .search_input').focus();
         $('.search-overlay').addClass('overlayer');
         $('#sidemenu_toggle').fadeOut(2);
+        setTimeout(() => {
+            $('.search_block .search_input').focus();
+        }, 1050)
     });
     // close icon script
     
     $('.open_search_MENU').on('click', function(event){
         event.stopPropagation();
         $('.search_block').toggleClass('visible');
-        $('.search_block .search_input').focus();
         $('.search-overlay').addClass('overlayer');
         $('#sidemenu_toggle').fadeOut(2);
+        setTimeout(() => {
+            $('.search_block .search_input').focus();
+        }, 1050)
     });
     // close icon script
 
