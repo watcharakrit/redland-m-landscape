@@ -18,7 +18,7 @@ $(window).on("load", function () {
     const $pagePiling = $('#pagepiling');
     const hasPagePiling = $pagePiling.length? true: false;
     const isHomepage = $('html').hasClass('home-page');
-    if (!($(window).width() >= 1000 || (window.matchMedia("(orientation: landscape)").matches && isHomepage)) || !hasPagePiling) {
+    if (!($(window).width() >= 1000 || isHomepage) || !hasPagePiling) {
         $('.pagedata').removeAttr('id');
         $('html, body').css('overflow-y', 'scroll');
     }else{

@@ -30,6 +30,10 @@
   bottom: 0 !important;
 }
 
+.heightAwardH {
+  margin-bottom: 50px;
+}
+
 
 @media screen and (orientation:landscape) and (max-width: 991px) and (max-height: 420px) {
 
@@ -87,13 +91,13 @@
       }
     }
 
-    // Home Menu White and Brown Switch
     &.navbar-top-default .navbarMobile-brown {
       display: none !important;
     }
 
     &.navbar-top-default.-theme-brown {
-      .navbarDesktop-brown, 
+
+      .navbarDesktop-brown,
       .navbarMobile-white {
         display: none !important;
       }
@@ -361,5 +365,142 @@
 
   .scrollbarProfileDetails {
     margin-bottom: 0 !important;
+  }
+}
+
+
+/* Section Home Award ( Fro al lock scroll content )
+- This style for display content section award to can scroll whole content in section instead of only section items.
+- This for media only landscape mobile and vertical mobile. ( Not include IPad ).
+*/
+
+.section-home-award-content {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.section-home-award-content-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (orientation:landscape) and (max-width: 991px) and (max-height: 420px), (max-width: 767px) {
+  .section-home-award-content {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 80px;
+
+    .footer-social.page9 {
+      margin-bottom: 0;
+    }
+  }
+
+  .section-home-award-content-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 20px;
+  }
+
+  .heightAwardH {
+    height: auto;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-width: 767px) and (max-height: 420px) {
+  .section-home-award-content {
+    padding-top: 80px !important;
+
+    .footer-social.page9 {
+      margin-top: 80px !important;
+      
+      &>.container>.row {
+        display: block;
+      }
+    }
+
+    .navigate-arrow {
+      &.hidden-projectD-sm {
+        display: none !important;
+      }
+
+      &.hidden-projectD-xs {
+        display: block !important;
+        position: absolute !important;
+        top: -161px;
+        left: calc(100vw - 20px) !important;
+        transform: translateX(-100%) !important;
+      }
+
+      .fontBacktoTop {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .slider-bottom-copy {
+    &.hidden-projectD-sm {
+      margin-top: 20px;
+
+      .slider-copyright {
+        bottom: 0 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-home-award-content {
+    padding-top: 130px;
+
+    .awards-top {
+      margin-top: 20px !important;
+    }
+  }
+
+  // Home Menu White and Brown Switch
+  .navbar {
+    &.navbar-top-default .navbarMobile-brown {
+      display: none !important;
+    }
+
+    &.navbar-top-default.-theme-brown {
+
+      .navbarDesktop-brown,
+      .navbarMobile-white {
+        display: none !important;
+      }
+
+      .navbarMobile-brown {
+        display: block !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-home-award-content {
+    .footer-social.page9 {
+      margin-bottom: -20px;
+    }
+
+    .slider-bottom-copy {
+        &.hidden-projectD-sm {
+          margin-bottom: -20px;
+
+          .slider-copyright {
+            font-size: 12px;
+          }
+        }
+      }
   }
 }
