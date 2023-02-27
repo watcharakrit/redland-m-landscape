@@ -34,6 +34,29 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 991px) {
+  .text-home {
+    top: 35% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-home {
+    top: 91% !important;
+  }
+
+  .slider-bottom-copyM {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider-copyrightM {
+    font-size: 12px;
+  }
+}
+
 
 @media screen and (orientation:landscape) and (max-width: 991px) and (max-height: 420px) {
 
@@ -253,6 +276,7 @@
   .slider-bottom-copyM {
     bottom: 10px !important;
     left: 0 !important;
+    right: initial !important;
   }
 
   .slider-copyrightM {
