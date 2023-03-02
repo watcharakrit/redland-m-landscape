@@ -5131,7 +5131,7 @@ blockquote:empty, p:empty {
     .back-projects {bottom: 75px;position: relative;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 180px !important; left: 48px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
-    .heightAwardH {/*height: 310px;*/height:560px;overflow-y: scroll;overflow-x: hidden;}
+    .heightAwardH {height: 310px; overflow-y: scroll;overflow-x: hidden;}
     .heightprojects {height: 500px !important;overflow-y: scroll !important;overflow-x: hidden !important;}
     .auto-projects {margin-top: 200px!important;}
     .auto-project {margin-top: 200px!important;}

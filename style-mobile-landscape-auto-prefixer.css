@@ -21,6 +21,10 @@
   bottom: 0 !important;
 }
 
+.fontBacktoTop {
+  white-space: nowrap;
+}
+
 .heightAwardH {
   margin-bottom: 50px;
 }
@@ -42,6 +46,16 @@
 @media screen and (max-width: 767px) {
   .slider-copyrightM {
     font-size: 12px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section.bg-cream.profile,
+  .section.bg-cream.testimonial-sec {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
 }
 @media screen and (orientation: landscape) and (max-width: 991px) and (max-height: 420px) {
