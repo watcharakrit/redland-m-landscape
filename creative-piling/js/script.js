@@ -20,7 +20,7 @@ $(window).on("load", function () {
     const isHomepage = $('html').hasClass('home-page');
     if (!($(window).width() >= 1000 || isHomepage) || !hasPagePiling) {
         $('.pagedata').removeAttr('id');
-        $('html, body').css('overflow-y', 'scroll');
+        $('html, body').css('overflow-y', 'auto');
     }else{
         $pagePiling.pagepiling({
             direction: 'vertical',
@@ -43,7 +43,7 @@ $(window).on("load", function () {
                 $('.slider-social a').fadeOut();
                 $('#pp-nav.right').fadeOut();
 
-                if (nextIndex == 7) {
+                if (nextIndex == 1 || nextIndex == 7) {
                     $('.navbar-top-default').removeClass('-theme-brown');
                 }
 
