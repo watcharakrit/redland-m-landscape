@@ -20,7 +20,8 @@ $(window).on("load", function () {
     const isHomepage = $('html').hasClass('home-page');
     if (!($(window).width() >= 1000 || isHomepage) || !hasPagePiling) {
         $('.pagedata').removeAttr('id');
-        $('html, body').css('overflow-y', 'auto');
+        $('html')[0].style.setProperty('overflow-y', 'auto', 'important');
+        $('body')[0].style.setProperty('overflow-y', 'auto', 'important');
     }else{
         $pagePiling.pagepiling({
             direction: 'vertical',
