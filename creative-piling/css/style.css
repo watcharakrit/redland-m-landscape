@@ -3657,19 +3657,18 @@ blockquote:empty, p:empty {
 #style-3::-webkit-scrollbar-track
 {
     -webkit-box-shadow: inset 0 0 6px rgba(115,103,84,1);
-    background-color: #726754;
+    background-color: #dbc69f;
 }
 
 #style-3::-webkit-scrollbar
 {
     width: 5px;
-    background-color: #726754;
+    background-color: #dbc69f;
 }
 
 #style-3::-webkit-scrollbar-thumb
 {
     background-color: #726754;
-    outline: 2px solid #726754;
 }
 
 /*STYLE 3*/
@@ -4211,7 +4210,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 95px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -4345,7 +4344,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 95px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -4479,7 +4478,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 95px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 370px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 370px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 370px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -4613,7 +4612,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 95px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 350px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 350px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 350px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -4747,7 +4746,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 95px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 350px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 350px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 350px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -4881,7 +4880,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 95px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 270px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 270px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 270px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -5015,7 +5014,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 60px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 270px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 270px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 270px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 49px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -5163,7 +5162,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 30px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 72px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 64px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -5292,7 +5291,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 26px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 111px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
@@ -5425,7 +5424,7 @@ blockquote:empty, p:empty {
     .pdAwardH-0 {padding: 0px !important;}
     .contactTitle {font-size: 26px !important;}
     .side-menu .btn-close {height: 33px;width: 33px;display: inline-block;text-align: center;position: fixed;cursor: pointer;right: 30px; top: 72px;}
-    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
+    .scrollbarProfileDetails{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: auto;padding-right: 20px;}
     .scrollbar{float: left;height: 470px;width: 100%;background: #DFDDD6;overflow-y: scroll;padding-right: 20px;}
     .popup-box .close-btn {height: 33px;width: 33px;display: inline-block;text-align: center;position: absolute;cursor: pointer;right: 92px;top: 72px;}
     .footer-social p{font-family: 'Poppins', sans-serif;font-size: 14px;color: #dfddd6;font-weight: 400;letter-spacing: 0px;}
