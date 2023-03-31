@@ -4067,7 +4067,7 @@ form.findus .form-control, form.findus textarea {
     p.home-9-detail {margin-bottom: 5px !important;}
     p.home-9-detail-1 {margin-bottom: 5px !important;}
     .fancybox-navigation button {
-        display: none !important;
+/*        display: none !important;*/
     }
 }
 .pt-70 {padding-top: 70px;}

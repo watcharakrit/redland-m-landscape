@@ -50,9 +50,22 @@
 
 </head>
 <style type="text/css">
-    html, body {
-        overflow-y:scroll !important;
-        overflow-x: hidden !important;
+    @media (min-width: 768px) {
+        html, body {
+            overflow-y:hidden !important;
+            overflow-x: hidden !important;
+        }
+    }
+    @media (max-width: 767px) {
+        html, body {
+            overflow-y:scroll !important;
+            overflow-x: hidden !important;
+        }
+    }
+    @media (min-width:768px) {
+        .hP-100vh {
+            height: 100vh;
+        }
     }
     @media screen and (max-width: 1199px) and (min-width: 768px) {
         section {

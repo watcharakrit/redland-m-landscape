@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-y:scroll">
+<html lang="en">
 <head>
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -50,6 +50,24 @@
 
 </head>
 <style type="text/css">
+
+    @media (min-width: 1367px) {
+        html, body {
+            overflow-y:hidden !important;
+            overflow-x: hidden !important;
+        }
+    }
+    @media (max-width: 1366px) {
+        html, body {
+            overflow-y:scroll !important;
+            overflow-x: hidden !important;
+        }
+    }
+    @media (min-width:1200px) {
+        .hP-100vh {
+            height: 100vh !important;
+        }
+    }
     /* html {
         overflow-y:scroll !important;
         overflow-x: hidden !important;
@@ -241,6 +259,11 @@
         .side-nav .navbar-nav .nav-item {
             margin-left: 13% !important;
         }
+    }
+    @media screen and (min-width: 992px) {
+      .section.bg-cream.testimonial-sec {
+        position: relative !important;
+      }
     }
 </style>
 <!-- https://codepen.io/ashconnolly/pen/wmrNJK -->
@@ -503,7 +526,7 @@
 
 <div class="pp-scrollable">
     <!-- START PAGE8 -->
-    <section class="section bg-cream testimonial-sec vh100" style="position: absolute;width: 100%;">
+    <section class="section bg-cream testimonial-sec vh100 hP-100vh">
         <div class="bg-overlay opacity-4"></div>
         <div class="container h-100">
             <div class="row h-100">

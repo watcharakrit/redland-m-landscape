@@ -1178,6 +1178,12 @@
         $('[data-filter="*"]').trigger('click');
         return false;
     });
+    $('.cbp-filter-item').click(function(){
+        if($(this).hasClass('cbp-filter-item-active')){
+            $(this).removeClass('cbp-filter-item-active')
+        }
+        return true;
+    });
 
 
     function myFunction() {
