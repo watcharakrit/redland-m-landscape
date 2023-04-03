@@ -3746,7 +3746,6 @@ blockquote:empty, p:empty {
 
 @media (min-width: 992px) and (max-width: 1024px) {
     .pdr-115 {padding-right: 50px !important;}
-    .fancybox-image, .fancybox-spaceball {padding: 0px 95px 0 95px !important;}
     .view-all:after {width: 210px !important;}
     .view-all:hover:after {width: 180px !important; right: 30px;}
 }
@@ -3767,7 +3766,6 @@ blockquote:empty, p:empty {
     .mt-smA-11 {margin-top: 0px !important;}
     .mt-sm-7 {margin-top: 7%;}
     .footer-social.footer-menu {bottom: 57px !important;}
-    .fancybox-image, .fancybox-spaceball {padding: 0px 75px 0 75px !important;}
     .mb-0-sm {margin-bottom: 0px !important;}
     .mb-15-sm {margin-bottom: 15px !important;}
     .mb-20-sm {margin-bottom: 20px !important;}
@@ -4176,6 +4174,12 @@ blockquote:empty, p:empty {
     margin-bottom: 80px;
 }
 @media (min-width: 992px) {
+    .section-rl-light-box {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
     .section-rl-light-box {
         padding: 60px 0;
     }

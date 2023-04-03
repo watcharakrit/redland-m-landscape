@@ -5,6 +5,17 @@
 * Browsers: last 4 version
 */
 
+.fancybox-image,
+.fancybox-spaceball {
+  height: 100%;
+  object-fit: contain;
+  padding: 0 75px;
+}
+
+.fancybox-navigation button.fancybox-button {
+  top: 50%;
+}
+
 // Home Menu White and Brown Switch
 .navbar {
   &.navbar-top-default .navbarDesktop-brown {
@@ -74,6 +85,13 @@
 
 
 @media screen and (orientation:landscape) and (max-width: 991px) and (max-height: 420px) {
+  .section-rl-light-box {
+    padding: 0;
+  }
+
+  #team-slider.owl-carousel .owl-item img {
+    max-height: 55vh;
+  }
 
   /* Fancy Box */
   .fancybox-image-wrap {
