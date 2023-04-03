@@ -52,26 +52,11 @@
 </head>
 
 <style type="text/css">
-    /*html, body {
-        overflow-y:scroll !important;
-        overflow-x: hidden !important;
-    }*/
-    @media (min-width: 992px) and (max-width: 1199px) {
-        section {
-            padding: 0 0 50px 0;
-        }
+    html {
+        overflow: scroll !important;
     }
-    @media (min-width: 819px) and (max-width: 991px) {
-        section {
-            padding: 9rem 0 0 0;
-            height: auto; 
-        }
-    }
-    @media (min-width: 768px) and (max-width: 818px) {
-        section {
-            padding: 9rem 0 0 0;
-            height: auto; 
-        }
+    section {
+        padding-bottom: 0 !important;
     }
     @media (min-width: 320px) and (max-width: 767px){
         .side-nav .navbar-nav .nav-item {
@@ -302,6 +287,27 @@
     }
     #team-slider, .center {
         opacity: 1 !important;
+    }
+    .owl-carousel .owl-item img {
+        max-height: 75vh;
+        width: auto;
+        margin: 0 auto;
+    }
+    .owl-nav .owl-next {
+        right: 21% !important;
+    }
+
+    @media (max-width: 1199px) {
+        .owl-nav .owl-next {
+            right: 0 !important;
+        }
+    }
+
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 
@@ -681,7 +687,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-12 hidden-banner-lg hidden-banner-md mb-100 gallery-People">
+                                <div class="col-md-12 hidden-banner-lg hidden-banner-md gallery-People">
                                     <div class="row">
                                         <div class="col-6 mb-30">
                                             <img class="image" src="img/profile/profileNew-1.jpg">
@@ -770,17 +776,15 @@
                                             <p class="text-green fontProfile-14">Administrator</p>
                                         </div>
                                     </div>
-                                    <a class="text-brown read-more profile-d back-people-list hidden-banner-md hidden-banner-lg" href="profile.html">Back to Profile</a>
                                 </div>
 
                             </div>
-                            <a class="text-brown read-more profile-d back-people-list hidden-banner-sm" href="profile.html">Back to Profile</a>
                         </div>
                     </div>
                 </div>
             </div>
         <!--Team-->
-        <div class="row team-fade wow" data-wow-delay=".8s">
+        <div class="row team-fade wow section-rl-light-box" data-wow-delay=".8s">
             <div class="col-sm-12 auto-profile-peopleSlide">
                 <div id="team-slider" class="owl-carousel owl-theme wow fadeInUp">
                     <!--Team Item-->
@@ -820,6 +824,7 @@
                     </div>
                 </div>
             </div>
+            <a class="text-brown read-more profile-d back-people-list" href="profile.html">Back to Profile</a>
         </div>
 
             <!--SLIDER DOWN ARROW-->

@@ -2481,7 +2481,6 @@ header .navbar-simple .fixed-nav-items {
     .auto-project {margin-top: 200px!important;}
     /*.auto-profile-people {margin-top: 200px!important;}*/
     .auto-profile-people {margin-top: 200px!important;}
-    .auto-profile-peopleSlide {margin-top: 200px!important;margin-bottom: 200px !important;}
     .mt-40 {margin-top: 60px !important;}
     .mtt-40 {margin-top: 70px !important;}
     .auto-profile {margin-top: 200px!important;}
@@ -2546,21 +2545,18 @@ header .navbar-simple .fixed-nav-items {
 @media(min-width: 1400px) and (max-width: 1918px){
     /*.auto-project {margin-top: 140px!important;}*/
     .auto-profile-people {margin-top: 200px!important;}
-    .auto-profile-peopleSlide {margin-top: 200px!important;margin-bottom: 150px !important;}
     .auto-profile {margin-top: 170px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 50.9% !important;}
 }
 @media(min-width: 1282px) and (max-width: 1399px){
     /*.auto-project {margin-top: 140px!important;}*/
     .auto-profile-people {margin-top: 150px!important;}
-    .auto-profile-peopleSlide {margin-top: 150px!important;margin-bottom: 100px !important;}
     .auto-profile {margin-top: 170px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 50.9% !important;}
 }
 @media(min-width: 1199px) and (max-width: 1281px){
     /*.auto-project {margin-top: 140px!important;}*/
     .auto-profile-people {margin-top: 140px!important;}
-    .auto-profile-peopleSlide {margin-top: 140px!important;margin-bottom: 90px !important;}
     .auto-profile {margin-top: 170px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 51.5% !important;}
     .navigate-arrow {bottom: 100% !important;}
@@ -2569,7 +2565,6 @@ header .navbar-simple .fixed-nav-items {
 @media(min-width: 1189px) and (max-width: 1198px){
     /*.auto-project {margin-top: 140px!important;}*/
     .auto-profile-people {margin-top: 140px!important;}
-    .auto-profile-peopleSlide {margin-top: 140px!important;margin-bottom: 140px !important;}
     .auto-profile {margin-top: 10px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 51.5% !important;}
     .navigate-arrow {bottom: 100% !important;}
@@ -2583,7 +2578,6 @@ header .navbar-simple .fixed-nav-items {
 }
 @media(min-width: 820px) and (max-width: 1188px){
     /*.auto-project {margin-top: 140px!important;}*/
-    .auto-profile-peopleSlide {margin-top: 140px!important;margin-bottom: 0px !important;}
     .auto-profile {margin-top: 10px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 51.5% !important;}
     .navigate-arrowBanner {bottom: 50px !important;}
@@ -2592,7 +2586,6 @@ header .navbar-simple .fixed-nav-items {
 @media(min-width: 768px) and (max-width: 819px){
     .auto-project {margin-top: 0px!important;}
     .auto-profile-people {margin-top: 0px!important;}
-    .auto-profile-peopleSlide {margin-top: 40px!important;margin-bottom: 40px !important;}
     .auto-profile {margin-top: 0px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 43% !important;}
     .navigate-arrow {bottom: 65% !important;}
@@ -2601,7 +2594,6 @@ header .navbar-simple .fixed-nav-items {
 @media(max-width: 767px){
     /*.auto-project {margin-top: 140px!important;}*/
     .auto-profile-people {margin-top: 200px!important;}
-    .auto-profile-peopleSlide {margin-top: 200px!important;margin-bottom: 200px !important;}
     .auto-profile {margin-top: 170px!important;}
     .side-nav .navbar-nav .nav-item {margin-left: 13% !important;}
     .mt-15-xs {margin-top: 15px !important;}
@@ -2754,7 +2746,6 @@ header .navbar-simple .fixed-nav-items {
     .footer-pd-0 {padding: 0px 15px !important;}
     .AwardI-pd-0 {padding: 0px 0 !important;}
     .auto-profile-people {margin: 42% 0 0% 0 !important;}
-    .auto-profile-peopleSlide {margin: 0 0 15% 0 !important;}
     .navigate-arrow.project {bottom: 40px !important;}
     .navigate-arrow.navigate-arrow-search {bottom: 40px !important;}
     .auto-project {margin: 40%  0 0 0 !important;}
@@ -3676,19 +3667,18 @@ blockquote:empty, p:empty {
 #style-projects::-webkit-scrollbar-track
 {
     -webkit-box-shadow: inset 0 0 6px rgba(115,103,84,1);
-    background-color: #726754;
+    background-color: #dbc69f;
 }
 
 #style-projects::-webkit-scrollbar
 {
     width: 5px;
-    background-color: #726754;
+    background-color: #dbc69f;
 }
 
 #style-projects::-webkit-scrollbar-thumb
 {
     background-color: #726754;
-    outline: 2px solid #726754;
 }
 
 
@@ -4151,7 +4141,22 @@ blockquote:empty, p:empty {
 
 .back-people-detail {font-weight: 600 !important;}
 .view-all-profile {font-weight: 600 !important;}
-.back-people-list {font-weight: 600 !important;}
+.back-people-list {
+    font-weight: 600 !important;
+    position: absolute;
+    right: 3.2% !important;
+    bottom: 30px;
+}
+
+.back-people-list:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #726754;
+    top: 25px;
+    width: 240px !important;
+    left: 0px !important;
+}
 .back-projects {font-weight: 600 !important;}
 .position-view {font-weight: 600 !important;}
 .scrollbar-people {
@@ -4159,6 +4164,21 @@ blockquote:empty, p:empty {
     width: 100%;
     background: #DFDDD6;
     padding-right: 20px;
+}
+.section-rl-light-box {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.auto-profile-peopleSlide {
+    margin-bottom: 80px;
+}
+@media (min-width: 992px) {
+    .section-rl-light-box {
+        padding: 60px 0;
+    }
 }
 
 
@@ -4179,8 +4199,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 84px !important; right: 70px !important;}
     .back-people-detail {position: absolute;bottom: 150px !important; right: 130px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 3.2% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 240px !important; left: 0px !important;}
     .back-projects {position: relative;bottom: 40px;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 212px !important; left: 140px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -4312,8 +4330,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 84px !important; right: 70px !important;}
     .back-people-detail {position: absolute;bottom: 150px !important; right: 130px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 3.5% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 240px !important; left: 0px !important;}
     .back-projects {position: relative;bottom: 40px;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 212px !important; left: 140px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -4445,8 +4461,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 84px !important; right: 70px !important;}
     .back-people-detail {position: absolute;bottom: 100px !important; right: 133px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 3.5% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 240px !important; left: 0px !important;}
     .back-projects {position: relative;bottom: 45px;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 205px !important; left: 122px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -4578,8 +4592,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 84px !important; right: 70px !important;}
     .back-people-detail {position: absolute;bottom: 85px !important; right: 133px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 3.7% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 240px !important; left: 0px !important;}
     .back-projects {position: relative;bottom: 45px;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 209px !important; left: 90px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -4711,8 +4723,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 84px !important; right: 70px !important;}
     .back-people-detail {position: absolute;bottom: 85px !important; right: 130px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 3.8% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 240px !important; left: 0px !important;}
     .back-projects {position: relative;bottom: 45px;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 209px !important; left: 90px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -4844,8 +4854,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 84px !important; right: 70px !important;}
     .back-people-detail {position: absolute;bottom: 85px !important; right: 130px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 3.8% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
     .back-projects {bottom: 45px;position: relative;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -4977,8 +4985,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 145px !important; right: 55px !important;}
     .back-people-detail {position: absolute;bottom: 85px !important; right: 96px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 204px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 4.3% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects {bottom: 45px;position: relative;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 165px !important; left: 67px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -5134,8 +5140,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 15px !important; right: 55px !important;}
     .back-people-detail {position: absolute;bottom: 100px !important; right: 110px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 218px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 4.7% !important;margin-top: 15px;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 215px !important; left: 0px !important;}
     .back-projects {bottom: 75px;position: relative;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 180px !important; left: 48px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 230px !important; right: -40px !important;}
@@ -5265,8 +5269,6 @@ blockquote:empty, p:empty {
     .auto-project {margin-top: 170px!important;}
     .back-people-detail {position: absolute;bottom: 60px !important; right: 130px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 238px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 228px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 256px !important; right: -95px !important;}
     .auto-contact {margin-top: 170px!important;}
     .slider-bottom-copy {position: absolute !important;bottom: 10px !important;}
@@ -5397,8 +5399,6 @@ blockquote:empty, p:empty {
     .auto-project {margin-top: 170px!important;}
     .back-people-detail {position: absolute;bottom: 60px !important; right: 70px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 178px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 150px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 176px !important; right: -17px !important;}
     .auto-contact {margin-top: 170px!important;}
     .slider-bottom-copy {position: absolute !important;bottom: 10px !important;}
@@ -5519,8 +5519,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 65px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 150px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;bottom: 15px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 170px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 190px !important; right: -32px !important;}
     /*.view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}*/
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 173px !important; left: 222px !important;}
@@ -5648,8 +5646,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 65px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 150px !important; right: 50px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;bottom: 15px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 170px !important; right: -9px !important;}
     /*.view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}*/
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 150px !important; left: 225px !important;}
@@ -5774,8 +5770,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 45px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 100px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 136px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 176px !important; right: -19px !important;}
     /*.view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}*/
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 140px !important;left: 70px !important;}
@@ -5907,8 +5901,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 45px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 35px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 136px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 176px !important; right: -19px !important;}
     /*.view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}*/
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 140px !important;left: 70px !important;}
@@ -6040,8 +6032,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 45px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 35px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 136px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 176px !important; right: -19px !important;}
     /*.view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}*/
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 145px !important;left: 50px !important;}
@@ -6173,8 +6163,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 45px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 35px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 136px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 176px !important; right: -19px !important;}
     /*.view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;left: 67px !important;top: 25px;width: 197px !important;}*/
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 145px !important;left: 38px !important;}
@@ -6306,8 +6294,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 45px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 35px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 136px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 176px !important; right: -19px !important;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 413px !important;left: 30px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 210px !important;right: -15px !important;}
@@ -6439,8 +6425,6 @@ blockquote:empty, p:empty {
     .back-people {bottom: 45px !important; right: 30px !important;}
     .back-people-detail {position: absolute;bottom: 30px !important; right: 30px !important;}
     .back-people-detail:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 136px !important; left: 0px !important;}
-    .back-people-list {position: absolute;right: 25px !important;}
-    .back-people-list:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 196px !important; left: 0px !important;}
     .back-projects:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 240px !important; right: -84px !important;}
     .view-all-profile:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 140px !important;left: 70px !important;}
     .view-all-awards:after {content: "";position: absolute;height: 2px;background-color: #726754;top: 25px;width: 210px !important;right: -15px !important;}
