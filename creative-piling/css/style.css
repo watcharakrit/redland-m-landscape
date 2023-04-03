@@ -1956,15 +1956,21 @@ footer.bg-black2 {
 .loader {
     background: #DFDDD6 !important;
     text-align: center;
-    height: 100vh;
     z-index: 999;
     position: fixed;
     width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.loader img {width: 25% !important;}
+.loader img {
+    width: 25% !important;
+    transform: translate(0, -20%);
+}
 
 .linear-activity {
     overflow: hidden;
