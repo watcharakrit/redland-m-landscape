@@ -45,11 +45,11 @@ $(window).on("load", function () {
                 $('.slider-social a').fadeOut();
                 $('#pp-nav.right').fadeOut();
 
-                if (nextIndex == 1 || nextIndex == 7) {
+                if (nextIndex <= 7 ) {
                     $('.navbar-top-default').removeClass('-theme-brown');
                 }
 
-                if (nextIndex == 8) {
+                if (nextIndex > 7) {
                     $('.navbar-top-default').addClass('-theme-brown');
                 }
 
