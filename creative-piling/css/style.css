@@ -4186,7 +4186,6 @@ blockquote:empty, p:empty {
 }
 .section-rl-light-box {
     position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     padding: 30px 0;
