@@ -37,6 +37,18 @@
   }
 }
 
+//Project Details Page
+.project-detail-content-lg {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+.project-detail-content-md {
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
 .back-top {
   bottom: 0 !important;
 }

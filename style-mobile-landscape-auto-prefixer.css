@@ -28,6 +28,18 @@
   display: none !important;
 }
 
+@media (max-width: 1199px) {
+  .project-detail-content-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-detail-content-md {
+    display: none;
+  }
+}
+
 .back-top {
   bottom: 0 !important;
 }
