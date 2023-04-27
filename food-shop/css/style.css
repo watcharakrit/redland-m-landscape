@@ -3816,7 +3816,7 @@ form.findus .form-control, form.findus textarea {
 }
 @media(min-width: 1366px) and (max-width: 1919px){
     .side-nav .navbar-nav .nav-item {margin-left: 51% !important;}
-    h5.home-9-bold {color: #DFDDD6; font-weight: 600; font-size: 34px;}
+    h5.home-9-bold {color: #726754; font-weight: 600; font-size: 34px;}
     
 }
 @media(min-width: 1200px) and (max-width: 1365px){
@@ -3824,7 +3824,7 @@ form.findus .form-control, form.findus textarea {
     .mr-16 {
         margin-right: 14% !important;
     }
-    h5.home-9-bold {color: #DFDDD6; font-weight: 600; font-size: 34px;}
+    h5.home-9-bold {color: #726754; font-weight: 600; font-size: 34px;}
     .col-md-5 {
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
