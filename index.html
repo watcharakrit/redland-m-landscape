@@ -1095,7 +1095,7 @@
 
     <!-- START PAGE9 --> 
     <section class="section bg-cream" id="page9">
-        <div class="pp-scrollable section-home-award-content">
+        <div class="section-home-award-content">
             <div class="section-home-award-content-wrapper">
                 <div class="container pp-scrollable heightAwardH" id="style-home">
                     <div class="row">
@@ -1502,28 +1502,5 @@
 <script src="creative-piling/js/swiper-thumbnail.js"></script>
 <script src="vendor/js/contact_us.js"></script>
 <script src="creative-piling/js/script.js"></script>
-
-<script>
-    // $(".auto-pagepiling").click(function(){
-    //     console.log($(window).width())
-    //     $.fn.pagepiling.setAllowScrolling(true);
-    // })
-
-   
-    $(".pp-scrollable").scroll(function(){
-        // console.log($(window).width())
-        // console.log('scroll')
-        // alert($(this).scrollTop())
-        // if($(window).width() > 1200){
-            if($(this).scrollTop() > 0){
-                $.fn.pagepiling.setAllowScrolling(false);
-            }else{
-                $.fn.pagepiling.setAllowScrolling(true);
-            }
-        // }
-       
-    });
-    
-</script>
 </body>
 </html>
