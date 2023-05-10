@@ -21,7 +21,12 @@ $(window).on("load", function () {
     if (!($(window).width() >= 1000 || isHomepage) || !hasPagePiling) {
         $('.pagedata').removeAttr('id');
         $('html, body').css('overflow-y', 'scroll');
-        $('html')[0].style.setProperty('overflow-y', 'auto', 'important');
+        const $Html = $('html');
+        if ($Html.attr('data-always-scroll') !== undefined) {
+            $Html[0].style.setProperty('overflow-y', 'scroll', 'important');
+        } else {
+            $Html[0].style.setProperty('overflow-y', 'auto', 'important');
+        }
         $('body')[0].style.setProperty('overflow-y', 'auto', 'important');
     }else{
         $pagePiling.pagepiling({
