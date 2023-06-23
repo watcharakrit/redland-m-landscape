@@ -66,6 +66,20 @@
             margin-left: 17% !important;
         }
     }
+
+    .pp-easing {
+        opacity: 0;
+        transition: opacity 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990), transform 0s 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+    }
+
+    .pp-easing.active + .pp-easing {
+        opacity: 1;
+    }
+
+    .pp-easing.active {
+        transition: opacity 1000ms cubic-bezier(0.550, 0.085, 0.000, 0.990), transform 0s cubic-bezier(0.550, 0.085, 0.000, 0.990);
+        opacity: 1;            
+    }
     /*.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
         position: absolute;
         top: 50%;
