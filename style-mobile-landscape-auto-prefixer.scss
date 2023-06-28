@@ -23,6 +23,21 @@
   animation: slide-in 1.2s forwards;
 }
 
+@media (min-width: 1000px) {
+  .style-for-pagepilling-jerk-wrapper {
+    overflow: hidden;
+    touch-action: none;
+  }
+
+  .style-for-pagepilling-jerk {
+    display: table;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+}
+
 .fancybox-image,
 .fancybox-spaceball {
   height: 100%;
