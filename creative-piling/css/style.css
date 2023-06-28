@@ -3326,7 +3326,7 @@ blockquote:empty, p:empty {
     -o-transition: .8s ease;
     transition: .8s ease;
 }
-.contact-title {font-weight: 500; color: #726754;transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);}
+.contact-title {font-weight: 500; color: #726754;}
 .project-title {font-weight: 600; color: #726754; margin-bottom: 0px;} 
 .project-title-popup {font-weight: 600; color: #D9C5A7;} 
 .bold {
@@ -4221,6 +4221,11 @@ blockquote:empty, p:empty {
 .project-detail-content-lg .row:nth-child(2) {
     position: relative;
     z-index: 1;
+}
+
+.backtoproject {
+    position: relative;
+    z-index: 2;
 }
 
 
