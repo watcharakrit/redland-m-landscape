@@ -4212,10 +4212,12 @@ blockquote:empty, p:empty {
     }
 }
 
-.galleryprojectC {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 1280px) {
+    .galleryprojectC {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .project-detail-content-lg .row:nth-child(2) {
