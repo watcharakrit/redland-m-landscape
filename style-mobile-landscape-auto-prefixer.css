@@ -16,7 +16,7 @@
 }
 .rd-page-content-animation {
   opacity: 0;
-  animation: slide-in 1.2s forwards;
+  animation: slide-in 1.6s forwards;
 }
 
 @media (min-width: 1000px) {
