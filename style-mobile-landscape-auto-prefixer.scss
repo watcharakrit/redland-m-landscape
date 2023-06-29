@@ -55,6 +55,16 @@
   top: 50%;
 }
 
+// Fixed owl
+.owl-carousel {
+  display: block !important;
+  visibility: hidden;
+}
+
+.owl-carousel.owl-loaded {
+  visibility: visible;
+}
+
 // Home Menu White and Brown Switch
 .navbar {
   &.navbar-top-default .navbarDesktop-brown {

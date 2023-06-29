@@ -49,6 +49,15 @@
   top: 50%;
 }
 
+.owl-carousel {
+  display: block !important;
+  visibility: hidden;
+}
+
+.owl-carousel.owl-loaded {
+  visibility: visible;
+}
+
 .navbar.navbar-top-default .navbarDesktop-brown {
   display: none !important;
 }
